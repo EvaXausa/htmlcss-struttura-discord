@@ -1,0 +1,31 @@
+/*Reset*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*Utils*/
+
+.container{
+    max-width: 1200px;
+    margin: auto;
+}
+
+.flex-container{
+    display: flex;
+    flex-direction: row;
+}
+
+header {
+    height: 400px;
+    background-color: lightblue;
+}
+
+.box{
+    height: 20px;
+    width: 200px;
+    background-color: goldenrod;
+    border: 2px dashed black;
+    float: left;
+}
